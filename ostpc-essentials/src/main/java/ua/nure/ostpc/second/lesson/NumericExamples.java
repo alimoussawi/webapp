@@ -37,5 +37,7 @@ public class NumericExamples {
         long charLong = '1';
         float charFloat = '1';
         double charDouble = '1';
+        int val = 2 << 1; //10
+        System.out.println(val);
     }
 }
