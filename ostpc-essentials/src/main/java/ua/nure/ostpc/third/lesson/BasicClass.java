@@ -1,9 +1,5 @@
 package ua.nure.ostpc.third.lesson;
 
-class MyBestClass {
-
-}
-
 public class BasicClass {
     public double myProperty;
 
@@ -38,4 +34,22 @@ class Car {
     public void printPi() {
         System.out.println(PI);
     }
+}
+
+
+/*
+Show how to create a constructor
+Show how to achieve constructor chain
+Show what is a default constructor
+Declare different properties
+Set default values for properties
+Change some values in constructors
+Get values via methods
+Declare a static constant and set it the value
+ */
+class Sweet {
+    public static String distributor = "Sweet distributor";
+    public float price;
+    public String name;
+    public boolean isChocolate;
 }
