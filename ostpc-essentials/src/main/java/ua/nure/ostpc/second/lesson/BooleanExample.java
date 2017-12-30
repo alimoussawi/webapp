@@ -1,5 +1,7 @@
 package ua.nure.ostpc.second.lesson;
 
+import ua.nure.ostpc.third.lesson.AccesModifiersClass;
+
 public class BooleanExample {
     /**
      * boolean
@@ -15,7 +17,6 @@ public class BooleanExample {
      * https://www.javatpoint.com/images/datatype2.JPG
      */
     public static void main(String[] args) {
-
     }
 
     public static void booleanUsage() {
