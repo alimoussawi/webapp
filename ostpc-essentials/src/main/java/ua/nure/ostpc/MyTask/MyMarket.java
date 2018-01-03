@@ -17,7 +17,7 @@ public class MyMarket {
     System.out.println(reposetory.getGoodName()+"\t"+reposetory1.getGoodName());
     System.out.println(reposetory.getPrice()+"\t"+reposetory1.getPrice());
     System.out.println(reposetory.getProvider()+"\t"+reposetory1.getProvider());
-
+System.out.println(reposetory.find("twix"));
     }
     public String getGoodName(){
         return goodName;

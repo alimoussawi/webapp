@@ -17,7 +17,7 @@ public class Reposetory extends MyMarket {
 
     public Goods find(String name) {
         for (int i=0;i<goods.size();i++){
-
+System.out.println(getGoodName());
 
         }
         return null;}
