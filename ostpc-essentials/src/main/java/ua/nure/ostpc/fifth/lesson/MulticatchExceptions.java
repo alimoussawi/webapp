@@ -3,7 +3,7 @@ package ua.nure.ostpc.fifth.lesson;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 public class MulticatchExceptions {
-    public long a = 9_123_456_789L;
+    public long a = 1_000_000_000_00L;
 
     public MulticatchExceptions() {
 
