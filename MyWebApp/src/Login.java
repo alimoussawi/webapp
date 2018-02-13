@@ -1,7 +1,6 @@
 import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
-import java.sql.*;
 
 public class Login extends HttpServlet {
 
@@ -12,18 +11,21 @@ public class Login extends HttpServlet {
 
         String username = request.getParameter("username");
         String pass = request.getParameter("pass");
-        if (Validate.IsAdmin(username,pass)){
-            RequestDispatcher rs = request.getRequestDispatcher("Admin");
-            rs.forward(request, response);
-        }
+
 
         if(Validate.checkUser(username, pass)) {
             RequestDispatcher rs = request.getRequestDispatcher("Welcome");
             rs.forward(request, response);
         }
+        else if (Validate.IsAdmin(username,pass)){
+            RequestDispatcher rs = request.getRequestDispatcher("Admin");
+            rs.forward(request, response);
+
+
+        }
         else {
             out.println("Username or Password incorrect");
-            RequestDispatcher rs = request.getRequestDispatcher("index.html");
+            RequestDispatcher rs = request.getRequestDispatcher("index.jsp");
             rs.include(request, response);
         }
 
