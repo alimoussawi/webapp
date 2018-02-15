@@ -24,7 +24,7 @@ public class Login extends HttpServlet {
 
         }
         else {
-            out.println("Username or Password incorrect");
+            out.println("<div align=\"center\">"+"<span style=\"width:500px;margin-bottom:15px;color:blue;font-size:30px;font-weight:bold;\"> Username Or Password Incorrect </span> ");
             RequestDispatcher rs = request.getRequestDispatcher("index.jsp");
             rs.include(request, response);
         }

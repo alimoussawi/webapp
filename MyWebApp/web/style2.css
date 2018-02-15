@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:url(admin.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+.Admin
+{
+    position:absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 420px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,.5);
+}
+h2{
+    margin: 0;
+    padding: 0 0 20px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+.Admin p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #ffffff;
+}
+.Admin input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.Admin input[type="text"],
+.Admin input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.Admin input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    background: darkcyan;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.Admin input[type="submit"]:hover
+{
+    background: #a7e610;
+    color: darkorchid;
+}
+.Admin input[type="button"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    background: darkcyan;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.Admin input[type="button"]:hover
+{
+    background: #a7e610;
+    color: darkorchid;
+}

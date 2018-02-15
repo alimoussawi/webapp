@@ -5,22 +5,25 @@
   Time: 6:49 PM
   To change this template use File | Settings | File Templates.
 --%>
+<!doctype html>
 <html>
 <head>
-  <title>login form</title>
+  <meta charset="utf-8">
+  <title>Login Form</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<body style="background-color:#e6396f;"</body>
-
-<form method="post" action="login">
-  <b>username:</b><input type="text" name="username" /><br/>
-  <b>Password:</b><input type="password" name="pass" /><br/>
-  <input type="submit" value="login" />
-  <% String date=new java.util.Date().toString();
-    out.println(date);%>
-</form>
-
-
+<div class="LoginBox">
+  <img src="user.png" class="user">
+  <h2>Login Here</h2>
+  <form method="post" action="login">
+    <p>Username</p>
+    <input type="text" name="username" placeholder="Enter your username">
+    <p>Password</p>
+    <input type="password" name="pass" placeholder="******">
+    <input type="submit" name="" value="Sign in">
+  </form>
+</div>
 </body>
 </html>
 

@@ -8,15 +8,23 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+    <meta charset="utf-9">
     <title>admin</title>
+    <link rel="stylesheet" href="style2.css">
+
 </head>
 <body>
-<body style="background-color:#b405e6;"</body>
-<form method="post" action="Register">
-    <b>username:</b><input type="text" name="username" /><br/>
-    <b>Password:</b><input type="password" name="pass" /><br/>
-    <input type="submit" value="add user" />
+<div class="Admin">
+        <h2>Admin </h2>
+        <form method="post" action="Register">
+    <p>username:</p>
+            <input type="text" name="username" />
+    <p>Password:</p>
+            <input type="password" name="pass" />
 
+    <input type="submit" value="add user" />
+    <input type="button" value="return home" onclick=window.location.href='index.jsp' />
 </form>
+</div>
 </body>
 </html>
