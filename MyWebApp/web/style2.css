@@ -18,7 +18,7 @@ body{
     background: rgba(0,0,0,.5);
 }
 h2{
-    margin: 0;
+    margin:0;
     padding: 0 0 20px;
     color: #ffffff;
     text-align: center;
@@ -66,7 +66,7 @@ h2{
     border: none;
     outline: none;
     height: 40px;
-    color: white;
+    color: #ffffff;
     font-size: 16px;
     background: darkcyan;
     cursor: pointer;
@@ -76,4 +76,11 @@ h2{
 {
     background: #a7e610;
     color: darkorchid;
+}
+.Admin2 body{
+
+    font-size: 30px;
+}
+.Admin2 h2{
+    font-size: 30px;
 }

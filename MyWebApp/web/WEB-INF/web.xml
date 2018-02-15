@@ -5,6 +5,14 @@
         <jsp-file>/index2.jsp</jsp-file>
     </servlet>
     <servlet>
+        <servlet-name>index3</servlet-name>
+        <jsp-file>/index3.jsp</jsp-file>
+    </servlet>
+    <servlet>
+        <servlet-name>index4</servlet-name>
+        <jsp-file>/index4.jsp</jsp-file>
+    </servlet>
+    <servlet>
         <servlet-name>Register</servlet-name>
         <servlet-class>Register</servlet-class>
     </servlet>
@@ -27,6 +35,14 @@
     <servlet-mapping>
         <servlet-name>index2</servlet-name>
         <url-pattern>/index2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>index3</servlet-name>
+        <url-pattern>/index3</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>index4</servlet-name>
+        <url-pattern>/index4</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>login</servlet-name>

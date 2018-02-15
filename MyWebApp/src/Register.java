@@ -12,8 +12,8 @@ public class Register extends HttpServlet {
         PrintWriter out = response.getWriter();
         Validate.map.put(username,pass);
         if (username!=""&&pass!="") {
-            out.println("<span style=\"width:100px;margin-top:20px;color:black;font-size:60px;font-weight:bold;\">Successfully Added A New User</span>    " );
-
+            out.println("<div align=\"center\">\n"+"<span style=\"width:50px;margin-top:20px;color:black;font-size:30px;font-weight:bold;\">Successfully Added A New User</span>"+"</div>" );
+            out.println("<div align=\"center\">\n"+"<div class=\"Admin2\">"+"<span style=\"width:500px;margin-top:20px;color:black;font-size:30px;font-weight:bold;\">All Users : </span> "+"<h2>"+Validate.map.keySet()+"</h2>"+"</div>\n");
             RequestDispatcher rs = request.getRequestDispatcher("index2.jsp");
             rs.include(request, response);
         }
