@@ -9,7 +9,6 @@ public class Admin extends HttpServlet {
         String username=request.getParameter("username");
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
-       // out.print("<href='index2.jsp'> Click here to add users </a>");
         out.println("<jsp:include page='index2.jsp' />");
         RequestDispatcher rs=request.getRequestDispatcher("index4.jsp");
         rs.forward(request, response);

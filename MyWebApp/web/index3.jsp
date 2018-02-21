@@ -1,3 +1,4 @@
+<%@ page import="java.util.Date" %>
 <!doctype html>
 <html>
 <head>
@@ -23,5 +24,7 @@
 the logged user is :
     <%String name = (String)request.getParameter("username"); %>
     <%= name%>
-
+<% String date=new Date().toString();
+out.println(", logged in at        "+date);
+%>
 </div></body></html>
