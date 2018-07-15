@@ -1,10 +1,11 @@
 import java.util.HashMap;
 import java.util.Map;
-
 public class Validate
 {
     static Map<String,String> map=new HashMap<String, String>();
     static Map<String,String> map1=new HashMap<String, String>();
+    static Map<String,String> map2=new HashMap<String, String>();
+
     public static boolean checkUser(String username,String pass)
     {
           map.put("ali","ali123");
@@ -26,5 +27,6 @@ public class Validate
         else
             return false;
     }
+
 
 }

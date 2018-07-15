@@ -5,6 +5,10 @@
         <jsp-file>/index2.jsp</jsp-file>
     </servlet>
     <servlet>
+        <servlet-name>index6</servlet-name>
+        <jsp-file>/index6.jsp</jsp-file>
+    </servlet>
+    <servlet>
         <servlet-name>index3</servlet-name>
         <jsp-file>/index3.jsp</jsp-file>
     </servlet>
@@ -19,6 +23,10 @@
     <servlet>
         <servlet-name>login</servlet-name>
         <servlet-class>Login</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AddItems</servlet-name>
+        <servlet-class>AddItems</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Welcome</servlet-name>
@@ -37,6 +45,10 @@
         <url-pattern>/index2</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
+        <servlet-name>index6</servlet-name>
+        <url-pattern>/index6</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
         <servlet-name>index3</servlet-name>
         <url-pattern>/index3</url-pattern>
     </servlet-mapping>
@@ -51,6 +63,10 @@
     <servlet-mapping>
         <servlet-name>Welcome</servlet-name>
         <url-pattern>/Welcome</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AddItems</servlet-name>
+        <url-pattern>/AddItems</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>Admin</servlet-name>

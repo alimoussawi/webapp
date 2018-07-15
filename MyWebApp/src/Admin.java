@@ -13,6 +13,7 @@ public class Admin extends HttpServlet {
         RequestDispatcher rs=request.getRequestDispatcher("index4.jsp");
         rs.forward(request, response);
         out.println("<jsp:include page='index4.jsp' />");
+
     }
 
 }

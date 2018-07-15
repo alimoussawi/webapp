@@ -23,6 +23,7 @@
             <input type="password" name="pass" />
 
     <input type="submit" value="add user" />
+
     <input type="button" value="return home" onclick=window.location.href='index.jsp' />
 </form>
 </div>
